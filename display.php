@@ -3,7 +3,7 @@
 $command = escapeshellcmd('python3 process.py');
 echo "Lệnh đang được chạy: " . $command . "<br>";  // In ra lệnh
 $output = shell_exec($command);
-
+$output = shell_exec($command);
 
 // Echo kết quả để kiểm tra đầu ra
 echo "<pre>" . htmlspecialchars($output) . "</pre>";  // In ra kết quả trả về từ Python
